@@ -16,7 +16,7 @@ https://prnt.sc/qeruwc
 
 in es_extended > server > commands.lua
 
-Search for:
+Search for: TriggerEvent('es:addGroupCommand', 'giveitem'
 
 Before:
 ```lua
