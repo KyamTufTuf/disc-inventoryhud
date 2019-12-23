@@ -18,7 +18,7 @@ start disc-inventoryhud
 # DB Installation
 Run the discinventory.sql to create all tables
 
-# Inventory Usage and Installation
+# Inventory Usage and Modifications
 For you to create items you have to use the disc_inventory_itemdata table and no longer the "items" table, at least for now that Disc doesn't change, I don't even know if it will change, you must create the items in this image format below
 
 https://prnt.sc/qeruwc
