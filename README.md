@@ -19,7 +19,7 @@ in es_extended > server > commands.lua
 Search for:
 
 Before:
-
+```lua
 TriggerEvent('es:addGroupCommand', 'giveitem', 'admin', function(source, args, user)
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(args[1])
@@ -38,9 +38,10 @@ TriggerEvent('es:addGroupCommand', 'giveitem', 'admin', function(source, args, u
 end, function(source, args, user)
 	TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Insufficient Permissions.' } })
 end, {help = _U('giveitem'), params = {{name = 'id', help = _U('id_param')}, {name = 'item', help = _U('item')}, {name = 'amount', help = _U('amount')}}})
-
+```
 After:
 
+```lua
 TriggerEvent('es:addGroupCommand', 'giveitem', 'admin', function(source, args, user)
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(args[1])
@@ -55,7 +56,7 @@ TriggerEvent('es:addGroupCommand', 'giveitem', 'admin', function(source, args, u
 end, function(source, args, user)
 	TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'Insufficient Permissions.' } })
 end, {help = _U('giveitem'), params = {{name = 'id', help = _U('id_param')}, {name = 'item', help = _U('item')}, {name = 'amount', help = _U('amount')}}})
-
+```
 
 # BETA
 
