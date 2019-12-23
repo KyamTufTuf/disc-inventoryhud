@@ -4,6 +4,17 @@ The ACTUAL real code for the inventoryhud that is not broken
 # Install
 To install the feature just put in your resources folder and do the steps below
 
+#Required
+```
+es_extended
+disc-base
+```
+in your server.cfg
+```
+start disc-base
+start disc-inventoryhud
+```
+
 # DB Installation
 Run the discinventory.sql to create all tables
 
@@ -58,11 +69,6 @@ end, function(source, args, user)
 end, {help = _U('giveitem'), params = {{name = 'id', help = _U('id_param')}, {name = 'item', help = _U('item')}, {name = 'amount', help = _U('amount')}}})
 ```
 
-# Required
-```
-es_extended
-disc-base
-```
 # BETA
 
 This is a beta version. NOT all features are present AND THIS IS NOT PRODUCTION READY.
