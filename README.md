@@ -59,10 +59,10 @@ end, {help = _U('giveitem'), params = {{name = 'id', help = _U('id_param')}, {na
 ```
 
 # Required
-
+```
 es_extended
 disc-base
-
+```
 # BETA
 
 This is a beta version. NOT all features are present AND THIS IS NOT PRODUCTION READY.
