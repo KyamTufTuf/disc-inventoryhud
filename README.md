@@ -58,6 +58,11 @@ end, function(source, args, user)
 end, {help = _U('giveitem'), params = {{name = 'id', help = _U('id_param')}, {name = 'item', help = _U('item')}, {name = 'amount', help = _U('amount')}}})
 ```
 
+# Required
+
+es_extended
+disc-base
+
 # BETA
 
 This is a beta version. NOT all features are present AND THIS IS NOT PRODUCTION READY.
