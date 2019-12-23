@@ -4,12 +4,12 @@ The ACTUAL real code for the inventoryhud that is not broken
 # Install
 To install the feature just put in your resources folder and do the steps below
 
-#Required
+# Required
 ```
 es_extended
 disc-base
 ```
-in your server.cfg
+# in your server.cfg
 ```
 start disc-base
 start disc-inventoryhud
